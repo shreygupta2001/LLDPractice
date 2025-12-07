@@ -20,6 +20,5 @@ public class Main {
         floorList.add(floor5);
 
         Building building = new Building(floorList);
-
     }
 }

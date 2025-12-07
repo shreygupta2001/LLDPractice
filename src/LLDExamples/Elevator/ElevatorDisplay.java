@@ -10,7 +10,7 @@ public class ElevatorDisplay {
         this.direction = direction;
     }
 
-    public void showDisplay(){
+    public void showDisplay() {
         System.out.println(floor);
         System.out.println(direction);
     }

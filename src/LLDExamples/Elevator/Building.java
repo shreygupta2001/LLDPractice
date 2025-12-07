@@ -6,19 +6,19 @@ public class Building {
 
     List<Floor> floorList;
 
-    Building(List<Floor> floors){
+    Building(List<Floor> floors) {
         this.floorList = floors;
     }
 
-    public void addFloors(Floor newFloor){
+    public void addFloors(Floor newFloor) {
         floorList.add(newFloor);
     }
 
-    public void removeFloors(Floor removeFloor){
+    public void removeFloors(Floor removeFloor) {
         floorList.remove(removeFloor);
     }
 
-    List<Floor> getAllFloorList(){
+    List<Floor> getAllFloorList() {
         return floorList;
     }
 }
